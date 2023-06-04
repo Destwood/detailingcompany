@@ -1,0 +1,74 @@
+.GetInTouch {
+  padding-left: 20vh;
+}
+
+.titleComponent {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.GetContent {
+  width: 130vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+input:focus {
+  outline: none;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputArea input {
+  margin-bottom: 4vh;
+}
+
+.inputInfo {
+  height: 40px;
+  padding: 1vh 1vh 1vh 4vh;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: #4e4141;
+  color: #ffffff;
+
+  min-width: 60vh;
+}
+
+.msg {
+  padding: 4vh;
+  border-radius: 50px;
+  border: none;
+  background-color: #4e4141;
+  color: #ffffff;
+
+  min-width: 56vh;
+}
+
+.example {
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.example-item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 2vh;
+  min-width: 200px;
+}
+
+.example-item span {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}

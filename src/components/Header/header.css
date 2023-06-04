@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 2vh;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/*-------------------------------------------logo-------------------------------------------------*/
+.logo {
+}
+
+.elispe {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background-color: #ffd613;
+  border-radius: 50px;
+}
+
+.elispe::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 17%;
+  left: 17%;
+  width: inherit;
+  height: inherit;
+  background-color: #bb9e16;
+  border-radius: inherit;
+}
+
+.logo-text {
+  margin-left: 2vh;
+  vertical-align: middle;
+}
+
+/*-------------------------------------------logo end---------------------------------------------*/
+
+/*-------------------------------------------nav-------------------------------------------------*/
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav * {
+  margin-left: 3vh;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/*-------------------------------------------nav end---------------------------------------------*/

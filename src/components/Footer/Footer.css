@@ -1,0 +1,70 @@
+/*-------------------------------------------logo-------------------------------------------------*/
+
+.footerlogo {
+  margin-right: 30vh;
+}
+
+.elispe {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background-color: #ffd613;
+  border-radius: 50px;
+}
+
+.elispe::after {
+  content: "";
+  position: relative;
+  top: 17%;
+  left: 17%;
+  width: inherit;
+  height: inherit;
+  background-color: #bb9e16;
+  border-radius: inherit;
+}
+
+.logo-text {
+  margin-left: 2vh;
+  vertical-align: middle;
+}
+
+/*-------------------------------------------logo end---------------------------------------------*/
+
+.footer {
+  background: #0f0d0d;
+  padding: 10vh;
+  margin-top: 30vh;
+}
+
+.footerContent {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footerLinksContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLinksContent div {
+  min-width: 20vh;
+  margin-right: 10vh;
+  vertical-align: top;
+}
+
+.footerLinks a {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 3vh;
+}
+
+.linksTitle {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 80px;
+  color: #fff;
+}

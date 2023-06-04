@@ -1,0 +1,16 @@
+.dot-grid {
+  width: 500px;
+  height: 300px;
+  background-color: none;
+  display: grid;
+  grid-template-columns: repeat(20, 2px); /* Задаем 10 колонок */
+  grid-template-rows: repeat(20, 2px); /* Задаем 10 строк */
+  gap: 3px; /* Расстояние между точками */
+}
+
+.dot {
+  width: 10px; /* Ширина точки */
+  height: 10px; /* Высота точки */
+  background-color: rgba(20%, 0, 0, 0.5); /* Цвет точки */
+  border-radius: 50%; /* Скругление краев для создания круглой точки */
+}

@@ -1,0 +1,15 @@
+.testimonialsWrapper {
+  width: 100%;
+  margin-top: 30vh;
+}
+
+.testimonialsWrapper h3 {
+  margin-left: 20vh;
+}
+
+.quotesWrapper {
+  display: flex;
+  column-gap: 8vh;
+  width: fit-content;
+  margin: auto;
+}

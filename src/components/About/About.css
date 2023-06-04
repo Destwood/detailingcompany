@@ -1,0 +1,25 @@
+.AboutUs {
+  width: 80%;
+  background-color: #000;
+  margin: 20vh 0;
+  padding: 20vh;
+}
+.aboutContent {
+  display: flex;
+  margin-top: 10vh;
+}
+
+.aboutLogo {
+  width: 20%;
+}
+
+.aboutText {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+
+  width: 60%;
+  padding: 3vh;
+  margin-left: 3vh;
+  border-left: 1px solid #453636;
+}

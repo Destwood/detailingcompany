@@ -1,0 +1,66 @@
+/* .quote {
+} */
+
+.titleQuote {
+  display: flex;
+  margin: 3vh 0 5vh 9vh;
+}
+
+.titleQuoteText {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 80px;
+}
+
+.text {
+  border-radius: 50px;
+  padding: 4vh 4vh 0 4vh;
+  width: 36vh;
+  margin-top: 2vh;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.dark {
+  background: linear-gradient(
+    133.74deg,
+    #2b2424 25.55%,
+    rgba(131, 109, 109, 0) 116.47%
+  );
+}
+
+.dark::after {
+  content: "";
+  position: relative;
+  display: block;
+  top: -29vh;
+  left: 5.53vh;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #2a2424;
+}
+
+.light {
+  background: linear-gradient(
+    124.69deg,
+    #ffd613 29.55%,
+    rgba(131, 109, 109, 0) 147.9%,
+    #c6a509 147.9%
+  );
+  color: #000;
+}
+.light::after {
+  content: "";
+  position: relative;
+  display: block;
+  top: -29vh;
+  left: 5.53vh;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #ffd613;
+}

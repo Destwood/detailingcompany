@@ -1,0 +1,58 @@
+.services h3 {
+  margin-left: 20vh;
+}
+
+.servicesContent {
+  margin-left: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  width: 120vh;
+  min-width: 900px;
+  height: 80vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 5vh;
+}
+
+.grid div {
+  padding: 5vh;
+}
+
+.grid div:nth-child(1),
+.grid div:nth-child(2) {
+  border-bottom: 2px solid #524b4b;
+}
+
+.grid div:nth-child(2),
+.grid div:nth-child(4) {
+  border-left: 2px solid #524b4b;
+}
+
+.titleItem {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 0px;
+  margin-bottom: 3vh;
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+}
+
+.itemText {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.getIn {
+  max-width: 33vh;
+  margin-left: 20vh;
+}
+
+.getIn p {
+  margin-bottom: 10vh;
+}
